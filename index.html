@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Mood Tracker Website</title>
+</head>
+<body>
+
+    <header>
+        <h1>Mood Tracker</h1>
+        <p>Report your mood regulary to observe patterns over time.</p>
+    </header>
+    
+    <!--Created form with 3 separate divs (name-div, mood-div, angry-div) and 1 submit button-->
+    <form>
+        <div class="form-div" id="name-div">
+            <label for="name-entry" id="name-label">Name:</label>
+            <input type="text" id="name-entry" placeholder="Enter your name" required>
+        </div>
+
+    <div class="form-div" id="mood-div">
+        <label for="mood-div" id="mood-div-label">Select your overall mood for the day:</label><br>
+            
+                <label for="sad-input" class="mood-label">Sad</label>
+                <input type="radio" name="mood" value="sad"><br>
+                <label for="happy-input" class="mood-label">Happy</label>
+                <input type="radio" name="mood" value="sad"><br>
+    
+    <br> 
+    </div>       
+
+    <div class="form-div" id="angry-div">
+        <label for="angry-select" class="form-labels">Select your anger level from 1-10: </label>
+            <select id="angry-select">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </select>
+    </div>
+
+    <input type="submit" id="submit-button" value="Submit">
+    
+</form>
+</body>
+</html>
