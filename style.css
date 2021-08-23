@@ -7,13 +7,15 @@ body{
 
 h1{
     font-family: 'Nixie One', cursive;
+    font-size: 48px;
+    color: #44C5A7;
 }
 
 p{
-    font-family: 'Nixie One', cursive;
+    font-family: sans-serif;
+    font-size: 18px;
+    color: #44C5A7;
 }
-
-
 
 .form-div{
     width: 500px;
@@ -21,9 +23,39 @@ p{
     margin-left: auto;
     margin-right: auto;
     padding: 25px;
+    border-style: solid;
+    border-color: #6d3122
+}   
 
+#mood-div{
+    border-top-style: none;
+    border-bottom-style: none;
+    padding-top: 0;
+    padding-bottom: 0;
 }
 
+#name-entry{
+    border-radius: 4px;
+    border-color: #6d3122
+}
+
+.form-div label{
+    color: #6d3122;
+    font-family: sans-serif;
+}
+
+fieldset{
+   border-style: none;
+   padding: 5px 0px 0px 0px;
+}
+
+#name-div{
+    border-bottom-style: none;
+}
+
+#angry-div{
+    border-top-style: none;
+}
 
 
 #submit-button{
@@ -35,6 +67,3 @@ p{
     margin-top: 5px;
     border-radius: 10px;
 }
-
-
-/*teal rust(brown) white whitepink
