@@ -2,6 +2,10 @@
 <html lang="en">
 <head>
     <title>Mood Tracker Website</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nixie+One&display=swap" rel="stylesheet">
 </head>
 <body>
 
@@ -19,11 +23,10 @@
 
     <div class="form-div" id="mood-div">
         <label for="mood-div" id="mood-div-label">Select your overall mood for the day:</label><br>
-            
-                <label for="sad-input" class="mood-label">Sad</label>
+                <input type="radio" name="mood" value="sad">
+                <label for="sad-input" class="mood-label">Sad</label><br>
                 <input type="radio" name="mood" value="sad"><br>
-                <label for="happy-input" class="mood-label">Happy</label>
-                <input type="radio" name="mood" value="sad"><br>
+                <label for="happy-input" class="mood-label">Happy</label><br>     
     
     <br> 
     </div>       
